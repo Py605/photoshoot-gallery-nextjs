@@ -1,0 +1,27 @@
+.navbar{
+  background-color: transparent;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+  transition-timing-function: ease-in;
+  transition-duration: 300ms;
+}
+.outer-div{
+  max-width: 1240px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  color: #fff;
+}
+.list-components{
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+}
+.list-components li{
+  /* font-size: 1.5rem;
+  padding: 0; */
+}
